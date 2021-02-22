@@ -7,5 +7,5 @@ async function main() {
 }
 
 main()
-    .then(() => console.log("Stopping server..."))
+    .then(() => console.log("Server started."))
     .catch(e => console.error(e));
